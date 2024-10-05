@@ -291,15 +291,15 @@ footer .social-icons a:hover {
 /* Specific media query for small phone screens */
 @media (max-width: 480px) {
     h1 {
-        font-size: 2rem; /* Smaller heading for phones */
+        font-size: 1.8rem; /* Smaller heading for phones */
     }
 
     h2 {
-        font-size: 1.8rem; /* Smaller subheading */
+        font-size: 1.6rem; /* Smaller subheading */
     }
 
     p {
-        font-size: 1rem; /* Reduce paragraph font size for better readability on small screens */
+        font-size: 0.7rem; /* Reduce paragraph font size for better readability on small screens */
     }
 
     .cta {
