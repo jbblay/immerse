@@ -309,11 +309,11 @@ footer .social-icons a:hover {
 
     .cta.secondary {
         font-size: 0.8rem; /* Consistent size for secondary buttons */
-        padding: 0.5rem 1rem;
+        padding: 0.7rem 1rem;
     }
 
     /* Additional adjustments for smaller screens */
     .full-section {
-        padding: 1rem; /* Reduce padding for a better fit on smaller screens */
+        padding: 1.5rem; /* Reduce padding for a better fit on smaller screens */
     }
 }
