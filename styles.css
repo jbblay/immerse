@@ -288,18 +288,32 @@ footer .social-icons a:hover {
 }
 
 /* Responsive Design Enhancements */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        align-items: center;
+/* Specific media query for small phone screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; /* Smaller heading for phones */
+    }
+
+    h2 {
+        font-size: 1.8rem; /* Smaller subheading */
+    }
+
+    p {
+        font-size: 1rem; /* Reduce paragraph font size for better readability on small screens */
     }
 
     .cta {
-        font-size: 0.85rem;
+        font-size: 0.8rem; /* Slightly smaller CTA buttons */
+        padding: 0.5rem 1rem; /* Adjust padding for compact buttons */
     }
 
-    .cta-buttons {
-        flex-direction: column;
-        gap: 1rem;
+    .cta.secondary {
+        font-size: 0.8rem; /* Consistent size for secondary buttons */
+        padding: 0.5rem 1rem;
+    }
+
+    /* Additional adjustments for smaller screens */
+    .full-section {
+        padding: 1rem; /* Reduce padding for a better fit on smaller screens */
     }
 }
